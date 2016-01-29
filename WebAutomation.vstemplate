@@ -1,0 +1,22 @@
+<VSTemplate Version="2.0.0" Type="ProjectGroup"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+    <TemplateData>
+        <Name>WebAutomation Template</Name>
+        <Description>Basic web automation functionality</Description>
+        <Icon>robot.png</Icon>
+        <ProjectType>CSharp</ProjectType>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>WebAutomation</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+    </TemplateData>
+    <TemplateContent>
+        <ProjectCollection>
+            <ProjectTemplateLink ProjectName="Tests">
+                Tests\Tests.vstemplate
+            </ProjectTemplateLink>
+            <ProjectTemplateLink ProjectName="WebAutomation">
+                WebAutomation\WebAutomation.vstemplate
+            </ProjectTemplateLink>
+        </ProjectCollection>
+    </TemplateContent>
+</VSTemplate>
